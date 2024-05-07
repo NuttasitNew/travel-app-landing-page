@@ -15,7 +15,7 @@ const Button = ({ type, title, icon, varaint, full }: ButtonProps) => {
   return (
     <button
       type={type}
-      className={`flex items-center justify-center gap-3 rounded-full border border-b-4 hover:border-b-0 border-green-500 ${varaint} ${
+      className={`flex items-center justify-center gap-3 rounded-full border  border-green-500 ${varaint} ${
         full && "w-full"
       }`}
     >
